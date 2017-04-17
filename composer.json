@@ -1,0 +1,19 @@
+{
+    "name": "januszhou/emagid-imap",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Janus",
+            "email": "janus.zhou1005@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "php-imap/php-imap": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "EmagidService": "src/"
+        }
+    }
+}
